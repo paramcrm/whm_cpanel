@@ -334,6 +334,11 @@ module Panelbeater
       def version
         do_request 'version'
       end
+
+       # Get list of SubDomains
+      def version
+        do_request 'listsubdomains'
+      end
     end
   end
 end
